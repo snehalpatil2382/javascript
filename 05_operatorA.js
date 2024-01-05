@@ -18,14 +18,18 @@ function word() {
   var result = string.length;
   console.log(`Given String length is:${result}`);
   var result1 = string.split(" ");
+  var result2= result1.length;
+  var result3=result/result2;
+  console.log(result3);
   console.log(` Total words in the string is: ${result1.length} `);
-  var result2 = 22/4;
-  console.log(
-    ` string length divided by total number of word in string is: ${result2} `
-  );
-  var result2 = 22 * 4;
-  console.log(
-    ` string length multiply by total number of word in string is: ${result2} `
-  );
+  // var result2 = 22/4;
+
+  // console.log(
+  //   ` string length divided by total number of word in string is: ${result2} `
+  // );
+  // var result2 = 22 * 4;
+  // console.log(
+  //   ` string length multiply by total number of word in string is: ${result2} `
+  // );
 }
 word();
