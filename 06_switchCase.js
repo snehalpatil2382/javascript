@@ -1,6 +1,5 @@
 //1  -- Monday
 //2  -- Tuesday
-
 //7 -- Sunday
 function dayOfTheWeek(dayNum){
     switch (dayNum) {
