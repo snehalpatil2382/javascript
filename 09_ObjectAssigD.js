@@ -38,7 +38,7 @@ console.log("------------- Step 7 -----------------------");
 console.log(lastElement);
 console.log("------------- Step 7 -----------------------");
 console.log(professor);
-console.log("------------- Step 7 -----------------------");
+console.log("------------- Step 8 -----------------------");
 for (const key of professor.certificates) {
    const element = professor.certificates[key];
         console.log(`Certificate ==> ${key}`);
