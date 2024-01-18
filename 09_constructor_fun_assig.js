@@ -9,6 +9,7 @@ console.log(`BankName: ${this.bankName}, Location: ${this.location}, IFSC_Code: 
 }
 console.log(`------ Bank Details ------`);
 const yesBank=new Bank("yesBank","Pune","YES235567","4589");
+
 yesBank.display();
 const sbiBank=new Bank("sbiBank","Sangola","SBI236579","8919");
 sbiBank.display();
@@ -18,6 +19,6 @@ const axisBank=new Bank("axisBank","Solapur","AXIS256569","4567");
 axisBank.display();
 
 console.log(`----------------------`);
-Bank.prototype.openTime="9 am";
-console.log(Bank.prototype);
+
+
 // console.log(yesBank.openTime);

@@ -36,9 +36,9 @@ console.log("------------- Step 7 -----------------------");
  let lastElement=professor.certificates.splice(-1);
 // let lastElement=professor.certificates[professor.certificates.length-1];
 console.log(lastElement);
-console.log("------------- Step 7 -----------------------");
-console.log(professor);
 console.log("------------- Step 8 -----------------------");
+console.log(professor);
+console.log("------------- Step 9 -----------------------");
 for (const key of professor.certificates) {
    const element = professor.certificates[key];
         console.log(`Certificate ==> ${key}`);
